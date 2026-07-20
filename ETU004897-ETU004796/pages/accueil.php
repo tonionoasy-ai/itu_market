@@ -7,6 +7,8 @@
 
     $nom_membre = get_nom_membre($id_membre);
 
+    // $produits = get_produits_en_vente();
+
     $id_categorie_filtre = $_GET['id_categorie'] ?? null;
     $id_produit_filtre   = $_GET['id_produit'] ?? null;
 
